@@ -1,0 +1,38 @@
+{
+    // ✅ Use your full venv interpreter path
+    "python.defaultInterpreterPath": "E:\\QuickHire\\Backend\\venv\\Scripts\\python.exe",
+
+    //"E:\QuickHire\Backend\venv"
+
+    // ✅ Format code on save using Black
+    "python.formatting.provider": "black",
+    "editor.formatOnSave": true,
+
+    // ✅ Automatically sort imports using isort (Black style)
+    "python.sortImports.args": ["--profile", "black"],
+
+    // ✅ Enable linting (using pylint)
+    "python.linting.enabled": false,
+    "python.linting.pylintEnabled": true,
+    "python.linting.flake8Enabled": false,
+
+    // ✅ Associate Django template files correctly
+    "files.associations": {
+        "*.html": "django-html"
+    },
+
+    // ✅ Format Django templates on save using djlint
+    "[django-html]": {
+        "editor.defaultFormatter": "Riverside-Healthcare.djlint",
+        "editor.formatOnSave": true
+    },
+
+    // ✅ Use Pylance for better IntelliSense and type checking
+    "python.languageServer": "Pylance",
+    "python.analysis.typeCheckingMode": "off",
+
+    // ✅ Editor cleanliness
+    "editor.renderWhitespace": "boundary",
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true
+}

@@ -20,11 +20,18 @@ from .models import UserDetails
 
 import os
 from django.conf import settings
+
+import json
+from django.utils.crypto import get_random_string
+from django.shortcuts import get_object_or_404, redirect, render
+from django.core.mail import send_mail
+from django.contrib.auth.models import User
+
 # user Views
 
 @api_view(['GET', 'POST'])
-@authentication_classes([SessionAuthentication, TokenAuthentication])
-@permission_classes([IsAuthenticated])
+# @authentication_classes([SessionAuthentication, TokenAuthentication])
+# @permission_classes([IsAuthenticated])
 def user_list_create(request):
     if request.method == 'GET':
         users = UserDetails.objects.all()
@@ -37,7 +44,7 @@ def user_list_create(request):
             serializer.save()
             return Response(serializer.data, status=status.HTTP_201_CREATED)
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
-    
+
 @api_view(['GET', 'PUT', 'PATCH', 'DELETE'])
 @authentication_classes([SessionAuthentication, TokenAuthentication])
 @permission_classes([IsAuthenticated])
@@ -70,7 +77,7 @@ def user_detail(request, pk):
     elif request.method == 'DELETE':
         user.delete()
         return Response(status=status.HTTP_204_NO_CONTENT)
-    
+
 # Education Journey Views
 
 @api_view(['GET', 'POST'])
@@ -109,7 +116,7 @@ def education_journey_detail(request, pk):
             serializer.save()
             return Response(serializer.data)
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
-    
+
     elif request.method == 'PUT':
         serializer = EducationJourneySerializer(education_journey, data=request.data)
         if serializer.is_valid():
@@ -174,7 +181,7 @@ def experience_journey_detail(request, pk):
             serializer.save()
             return Response(serializer.data)
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
-    
+
     elif request.method == 'PUT':
         serializer = ExperienceJourneySerializer(experience_journey, data=request.data)
         if serializer.is_valid():
@@ -225,13 +232,63 @@ def upload_profile_picture(request):
             user_profile.user_photo = request.FILES['user_photo']
 
         user_profile.save()
-        
+
         serializer = UserDetailSerializer(user_profile)
         return Response(serializer.data, status=status.HTTP_201_CREATED)
-    
+
 
 def get_image_url(request):
     image_data = {
         "image_url": settings.MEDIA_URL + "1000029253.png"
     }
     return JsonResponse(image_data)
+
+def send_otp_email(email, otp):
+    subject = 'Your OTP Code'
+    message = f'Your OTP code is: {otp}'
+    send_mail(subject, message, settings.EMAIL_HOST_USER, [email])
+
+@api_view(['POST'])
+def login_user(request):
+    try :
+        data = json.loads(request.body)
+        email = data.get('email')
+
+        if not email:
+            return Response({'error': 'Email is required.'}, status=status.HTTP_400_BAD_REQUEST)
+
+        try :
+            users = get_object_or_404(UserDetails, email = email)
+        except:
+            return Response({'error': 'User Not Found'} ,status=status.HTTP_400_BAD_REQUEST)
+
+        if users is None:
+            return Response({'error': 'User Not Found With The Email.'}, status=status.HTTP_400_BAD_REQUEST)
+
+        otp = get_random_string(length=6, allowed_chars='1234567890')
+        users.otp = otp
+        users.save()
+
+        send_otp_email(users.email, otp)
+        return Response({'message' : 'Otp Sent Success fully'} ,status=status.HTTP_200_OK)
+
+    except Exception as e :
+        return Response({'error': str(e)} ,status=status.HTTP_400_BAD_REQUEST)
+
+@api_view(['POST'])
+def verify_otp_view(request):
+    data = json.loads(request.body)
+    otp = data.get('otp')
+    email = data.get('email')
+    usersDetails = get_object_or_404(UserDetails, email = email)
+    user = get_object_or_404(User, email = usersDetails.email)
+    sent_otp = usersDetails.otp
+
+    if otp == sent_otp:
+        token, created = Token.objects.get_or_create(user=user)
+        serializer = UserDetailSerializer(instance=usersDetails)
+        return Response({"token":token.key, "user":serializer.data})
+        # return JsonResponse({'message': 'User Verified !!'}, status=status.HTTP_200_OK )
+    else:
+        return JsonResponse({'message': 'Invalid OTP!'}, status=status.HTTP_400_BAD_REQUEST )
+

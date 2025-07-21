@@ -4,6 +4,7 @@ from .views import user_list_create,user_detail, education_journey_detail, educa
 from .account_deletion_views import delete_user_data, verify_otp_view, account_deleted
 from django.conf import settings
 from django.conf.urls.static import static
+from . import views as user_Views
 
 
 urlpatterns = [
@@ -16,10 +17,12 @@ urlpatterns = [
     path('experiencejourneys/', experience_journey_list_create, name='experiencejourney-list-create'),
     path('experiencejourneys/<int:pk>/', experience_journey_detail, name='experiencejourney-detail'),
     path('experiencejourneys/users/<int:user_id>/', experience_journey_for_user, name='experiencejourney-for-user'),
-     path('upload_profile_picture/', upload_profile_picture, name='upload_profile_picture'),
-     path('delete_user_data/', delete_user_data, name='delete_user_data'),
+    path('upload_profile_picture/', upload_profile_picture, name='upload_profile_picture'),
+    path('delete_user_data/', delete_user_data, name='delete_user_data'),
     path('verify-otp/', verify_otp_view, name='verify_otp'),
     path('account-deleted/', account_deleted, name='account_deleted'),
+    path('user-login/', user_Views.login_user , name='login_user'),
+    path('verify-login/', user_Views.verify_otp_view , name='verify_login'),
 ]
 
 if settings.DEBUG:
