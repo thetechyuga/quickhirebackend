@@ -1,0 +1,28 @@
+# environment folder for django
+venv/
+
+# Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Django-specific
+*.log
+*.sqlite3
+db.sqlite3
+
+# Environment variables
+.env
+
+# Local settings
+local_settings.py
+
+# Migrations
+# Usually, you want to commit migrations, but you might exclude this folder if it's not relevant
+# for your deployment strategy or if there are sensitive migration files.
+# Comment out the line below if you want to commit migrations
+
+
+# media files
+media/

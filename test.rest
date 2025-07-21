@@ -1,0 +1,29 @@
+POST http://127.0.0.1:8000/signup
+Content-Type: application/json
+
+{"username":"PuruPanda", "password": "Purab123", "email": "purabmodi200@gmail.com" }
+
+### 
+
+POST http://127.0.0.1:8000/login
+Content-Type: application/json
+
+{"username": "PuruPanda", "password": "baby123"}
+
+###
+
+GET http://127.0.0.1:8000/test_token
+Content-Type: application/json
+Authorization: Token c09b6cf7ca3d18df1eac777bbb7ad792d0d0ec15
+
+###
+
+GET  http://127.0.0.1:8000/users/
+Content-Type: application/json
+Authorization: Token c09b6cf7ca3d18df1eac777bbb7ad792d0d0ec15
+
+###
+
+POST http://127.0.0.1:8000/users/
+Content-Type: application/json
+Authorization: Token c09b6cf7ca3d18df1eac777bbb7ad792d0d0ec15
