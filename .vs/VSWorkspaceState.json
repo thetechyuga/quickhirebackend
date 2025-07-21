@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\accounts",
+    "\\applications",
+    "\\payments",
+    "\\payments\\migrations",
+    "\\profile_photos",
+    "\\server",
+    "\\subscriptions"
+  ],
+  "SelectedNode": "\\subscriptions\\views.py",
+  "PreviewInSolutionExplorer": false
+}

@@ -1,0 +1,444 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Downloads\\flutter appp\\QuickHireBackend\\QuickHireBackend-mainHead\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Downloads\\flutter appp\\QuickHireBackend\\QuickHireBackend-mainHead\\server\\views.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:server\\views.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Downloads\\flutter appp\\QuickHireBackend\\QuickHireBackend-mainHead\\server\\wsgi.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:server\\wsgi.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Downloads\\flutter appp\\QuickHireBackend\\QuickHireBackend-mainHead\\companies\\admin.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:companies\\admin.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Downloads\\flutter appp\\QuickHireBackend\\QuickHireBackend-mainHead\\applications\\admin.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:applications\\admin.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Downloads\\flutter appp\\QuickHireBackend\\QuickHireBackend-mainHead\\accounts\\admin.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:accounts\\admin.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Downloads\\flutter appp\\QuickHireBackend\\QuickHireBackend-mainHead\\server\\urls.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:server\\urls.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\Extensions\\Microsoft\\Python\\Core\\pylance\\dist\\bundled\\stubs\\django-stubs\\contrib\\admin\\__init__.pyi||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\Extensions\\Microsoft\\Python\\Core\\pylance\\dist\\bundled\\stubs\\django-stubs\\contrib\\admin\\sites.pyi||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Downloads\\flutter appp\\QuickHireBackend\\QuickHireBackend-mainHead\\server\\settings.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:server\\settings.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Downloads\\flutter appp\\QuickHireBackend\\QuickHireBackend-mainHead\\server\\serializers.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:server\\serializers.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Downloads\\flutter appp\\QuickHireBackend\\QuickHireBackend-mainHead\\server\\asgi.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:server\\asgi.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Downloads\\flutter appp\\QuickHireBackend\\QuickHireBackend-mainHead\\test.rest||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:test.rest||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Downloads\\flutter appp\\QuickHireBackend\\QuickHireBackend-mainHead\\requirements.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:requirements.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Downloads\\flutter appp\\QuickHireBackend\\QuickHireBackend-mainHead\\manage.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:manage.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Downloads\\flutter appp\\QuickHireBackend\\QuickHireBackend-mainHead\\accounts\\views.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:accounts\\views.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Downloads\\flutter appp\\QuickHireBackend\\QuickHireBackend-mainHead\\accounts\\user_details_serializer.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:accounts\\user_details_serializer.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Downloads\\flutter appp\\QuickHireBackend\\QuickHireBackend-mainHead\\accounts\\urls.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:accounts\\urls.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Downloads\\flutter appp\\QuickHireBackend\\QuickHireBackend-mainHead\\accounts\\account_deletion_views.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:accounts\\account_deletion_views.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\Extensions\\Microsoft\\Python\\Core\\pylance\\dist\\bundled\\stubs\\django-stubs\\db\\models\\base.pyi||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\Extensions\\Microsoft\\Python\\Core\\pylance\\dist\\bundled\\stubs\\django-stubs\\db\\models\\query.pyi||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Downloads\\flutter appp\\QuickHireBackend\\QuickHireBackend-mainHead\\venv\\Lib\\site-packages\\django\\shortcuts.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:venv\\Lib\\site-packages\\django\\shortcuts.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Downloads\\flutter appp\\QuickHireBackend\\QuickHireBackend-mainHead\\accounts\\migrations\\0001_initial.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:accounts\\migrations\\0001_initial.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Downloads\\flutter appp\\QuickHireBackend\\QuickHireBackend-mainHead\\user_messages\\models.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:user_messages\\models.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Downloads\\flutter appp\\QuickHireBackend\\QuickHireBackend-mainHead\\user_messages\\message_serializer.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:user_messages\\message_serializer.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Downloads\\flutter appp\\QuickHireBackend\\QuickHireBackend-mainHead\\user_messages\\apps.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:user_messages\\apps.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Downloads\\flutter appp\\QuickHireBackend\\QuickHireBackend-mainHead\\user_messages\\admin.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:user_messages\\admin.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "wsgi.py",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\flutter appp\\QuickHireBackend\\QuickHireBackend-mainHead\\server\\wsgi.py",
+              "RelativeDocumentMoniker": "server\\wsgi.py",
+              "ToolTip": "C:\\Users\\user\\Downloads\\flutter appp\\QuickHireBackend\\QuickHireBackend-mainHead\\server\\wsgi.py",
+              "RelativeToolTip": "server\\wsgi.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-06-02T08:32:18.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "admin.py",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\flutter appp\\QuickHireBackend\\QuickHireBackend-mainHead\\companies\\admin.py",
+              "RelativeDocumentMoniker": "companies\\admin.py",
+              "ToolTip": "C:\\Users\\user\\Downloads\\flutter appp\\QuickHireBackend\\QuickHireBackend-mainHead\\companies\\admin.py",
+              "RelativeToolTip": "companies\\admin.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-06-02T08:31:40Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "admin.py",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\flutter appp\\QuickHireBackend\\QuickHireBackend-mainHead\\applications\\admin.py",
+              "RelativeDocumentMoniker": "applications\\admin.py",
+              "ToolTip": "C:\\Users\\user\\Downloads\\flutter appp\\QuickHireBackend\\QuickHireBackend-mainHead\\applications\\admin.py",
+              "RelativeToolTip": "applications\\admin.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-06-02T08:31:35.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "admin.py",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\flutter appp\\QuickHireBackend\\QuickHireBackend-mainHead\\accounts\\admin.py",
+              "RelativeDocumentMoniker": "accounts\\admin.py",
+              "ToolTip": "C:\\Users\\user\\Downloads\\flutter appp\\QuickHireBackend\\QuickHireBackend-mainHead\\accounts\\admin.py",
+              "RelativeToolTip": "accounts\\admin.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-06-02T08:31:22.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "__init__.pyi",
+              "DocumentMoniker": "c:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\Extensions\\Microsoft\\Python\\Core\\pylance\\dist\\bundled\\stubs\\django-stubs\\contrib\\admin\\__init__.pyi",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\Extensions\\Microsoft\\Python\\Core\\pylance\\dist\\bundled\\stubs\\django-stubs\\contrib\\admin\\__init__.pyi",
+              "ToolTip": "c:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\Extensions\\Microsoft\\Python\\Core\\pylance\\dist\\bundled\\stubs\\django-stubs\\contrib\\admin\\__init__.pyi",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\Extensions\\Microsoft\\Python\\Core\\pylance\\dist\\bundled\\stubs\\django-stubs\\contrib\\admin\\__init__.pyi",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-02T08:31:03.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "sites.pyi",
+              "DocumentMoniker": "c:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\Extensions\\Microsoft\\Python\\Core\\pylance\\dist\\bundled\\stubs\\django-stubs\\contrib\\admin\\sites.pyi",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\Extensions\\Microsoft\\Python\\Core\\pylance\\dist\\bundled\\stubs\\django-stubs\\contrib\\admin\\sites.pyi",
+              "ToolTip": "c:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\Extensions\\Microsoft\\Python\\Core\\pylance\\dist\\bundled\\stubs\\django-stubs\\contrib\\admin\\sites.pyi",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\Extensions\\Microsoft\\Python\\Core\\pylance\\dist\\bundled\\stubs\\django-stubs\\contrib\\admin\\sites.pyi",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-02T08:30:45.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "serializers.py",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\flutter appp\\QuickHireBackend\\QuickHireBackend-mainHead\\server\\serializers.py",
+              "RelativeDocumentMoniker": "server\\serializers.py",
+              "ToolTip": "C:\\Users\\user\\Downloads\\flutter appp\\QuickHireBackend\\QuickHireBackend-mainHead\\server\\serializers.py",
+              "RelativeToolTip": "server\\serializers.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-06-02T08:27:16.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "asgi.py",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\flutter appp\\QuickHireBackend\\QuickHireBackend-mainHead\\server\\asgi.py",
+              "RelativeDocumentMoniker": "server\\asgi.py",
+              "ToolTip": "C:\\Users\\user\\Downloads\\flutter appp\\QuickHireBackend\\QuickHireBackend-mainHead\\server\\asgi.py",
+              "RelativeToolTip": "server\\asgi.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-06-02T08:27:09.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "urls.py",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\flutter appp\\QuickHireBackend\\QuickHireBackend-mainHead\\accounts\\urls.py",
+              "RelativeDocumentMoniker": "accounts\\urls.py",
+              "ToolTip": "C:\\Users\\user\\Downloads\\flutter appp\\QuickHireBackend\\QuickHireBackend-mainHead\\accounts\\urls.py",
+              "RelativeToolTip": "accounts\\urls.py",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-05-16T16:19:06.576Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "account_deletion_views.py",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\flutter appp\\QuickHireBackend\\QuickHireBackend-mainHead\\accounts\\account_deletion_views.py",
+              "RelativeDocumentMoniker": "accounts\\account_deletion_views.py",
+              "ToolTip": "C:\\Users\\user\\Downloads\\flutter appp\\QuickHireBackend\\QuickHireBackend-mainHead\\accounts\\account_deletion_views.py",
+              "RelativeToolTip": "accounts\\account_deletion_views.py",
+              "ViewState": "AgIAABoAAAAAAAAAAAArwCYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-05-16T16:16:47.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "views.py",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\flutter appp\\QuickHireBackend\\QuickHireBackend-mainHead\\server\\views.py",
+              "RelativeDocumentMoniker": "server\\views.py",
+              "ToolTip": "C:\\Users\\user\\Downloads\\flutter appp\\QuickHireBackend\\QuickHireBackend-mainHead\\server\\views.py",
+              "RelativeToolTip": "server\\views.py",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAC0AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-05-16T20:05:21.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "base.pyi",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\Extensions\\Microsoft\\Python\\Core\\pylance\\dist\\bundled\\stubs\\django-stubs\\db\\models\\base.pyi",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\Extensions\\Microsoft\\Python\\Core\\pylance\\dist\\bundled\\stubs\\django-stubs\\db\\models\\base.pyi",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\Extensions\\Microsoft\\Python\\Core\\pylance\\dist\\bundled\\stubs\\django-stubs\\db\\models\\base.pyi",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\Extensions\\Microsoft\\Python\\Core\\pylance\\dist\\bundled\\stubs\\django-stubs\\db\\models\\base.pyi",
+              "ViewState": "AgIAAA4AAAAAAAAAAAArwBoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-16T16:22:39.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "0001_initial.py",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\flutter appp\\QuickHireBackend\\QuickHireBackend-mainHead\\accounts\\migrations\\0001_initial.py",
+              "RelativeDocumentMoniker": "accounts\\migrations\\0001_initial.py",
+              "ToolTip": "C:\\Users\\user\\Downloads\\flutter appp\\QuickHireBackend\\QuickHireBackend-mainHead\\accounts\\migrations\\0001_initial.py",
+              "RelativeToolTip": "accounts\\migrations\\0001_initial.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-05-16T16:14:12.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "settings.py",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\flutter appp\\QuickHireBackend\\QuickHireBackend-mainHead\\server\\settings.py",
+              "RelativeDocumentMoniker": "server\\settings.py",
+              "ToolTip": "C:\\Users\\user\\Downloads\\flutter appp\\QuickHireBackend\\QuickHireBackend-mainHead\\server\\settings.py",
+              "RelativeToolTip": "server\\settings.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-05-16T08:06:51.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "urls.py",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\flutter appp\\QuickHireBackend\\QuickHireBackend-mainHead\\server\\urls.py",
+              "RelativeDocumentMoniker": "server\\urls.py",
+              "ToolTip": "C:\\Users\\user\\Downloads\\flutter appp\\QuickHireBackend\\QuickHireBackend-mainHead\\server\\urls.py",
+              "RelativeToolTip": "server\\urls.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-05-16T10:05:23.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "shortcuts.py",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\flutter appp\\QuickHireBackend\\QuickHireBackend-mainHead\\venv\\Lib\\site-packages\\django\\shortcuts.py",
+              "RelativeDocumentMoniker": "venv\\Lib\\site-packages\\django\\shortcuts.py",
+              "ToolTip": "C:\\Users\\user\\Downloads\\flutter appp\\QuickHireBackend\\QuickHireBackend-mainHead\\venv\\Lib\\site-packages\\django\\shortcuts.py",
+              "RelativeToolTip": "venv\\Lib\\site-packages\\django\\shortcuts.py",
+              "ViewState": "AgIAABIAAAAAAAAAAAArwBsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-05-16T17:02:25.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "query.pyi",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\Extensions\\Microsoft\\Python\\Core\\pylance\\dist\\bundled\\stubs\\django-stubs\\db\\models\\query.pyi",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\Extensions\\Microsoft\\Python\\Core\\pylance\\dist\\bundled\\stubs\\django-stubs\\db\\models\\query.pyi",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\Extensions\\Microsoft\\Python\\Core\\pylance\\dist\\bundled\\stubs\\django-stubs\\db\\models\\query.pyi",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\Extensions\\Microsoft\\Python\\Core\\pylance\\dist\\bundled\\stubs\\django-stubs\\db\\models\\query.pyi",
+              "ViewState": "AgIAAH0AAAAAAAAAAAArwIkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-16T17:16:16.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "user_details_serializer.py",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\flutter appp\\QuickHireBackend\\QuickHireBackend-mainHead\\accounts\\user_details_serializer.py",
+              "RelativeDocumentMoniker": "accounts\\user_details_serializer.py",
+              "ToolTip": "C:\\Users\\user\\Downloads\\flutter appp\\QuickHireBackend\\QuickHireBackend-mainHead\\accounts\\user_details_serializer.py",
+              "RelativeToolTip": "accounts\\user_details_serializer.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-05-16T17:19:56.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "test.rest",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\flutter appp\\QuickHireBackend\\QuickHireBackend-mainHead\\test.rest",
+              "RelativeDocumentMoniker": "test.rest",
+              "ToolTip": "C:\\Users\\user\\Downloads\\flutter appp\\QuickHireBackend\\QuickHireBackend-mainHead\\test.rest",
+              "RelativeToolTip": "test.rest",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-05-16T10:06:21.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "views.py",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\flutter appp\\QuickHireBackend\\QuickHireBackend-mainHead\\accounts\\views.py",
+              "RelativeDocumentMoniker": "accounts\\views.py",
+              "ToolTip": "C:\\Users\\user\\Downloads\\flutter appp\\QuickHireBackend\\QuickHireBackend-mainHead\\accounts\\views.py",
+              "RelativeToolTip": "accounts\\views.py",
+              "ViewState": "AgIAADAAAAAAAAAAAAArwD8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-05-16T08:05:56.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "models.py",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\flutter appp\\QuickHireBackend\\QuickHireBackend-mainHead\\user_messages\\models.py",
+              "RelativeDocumentMoniker": "user_messages\\models.py",
+              "ToolTip": "C:\\Users\\user\\Downloads\\flutter appp\\QuickHireBackend\\QuickHireBackend-mainHead\\user_messages\\models.py",
+              "RelativeToolTip": "user_messages\\models.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-05-16T08:05:25.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "message_serializer.py",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\flutter appp\\QuickHireBackend\\QuickHireBackend-mainHead\\user_messages\\message_serializer.py",
+              "RelativeDocumentMoniker": "user_messages\\message_serializer.py",
+              "ToolTip": "C:\\Users\\user\\Downloads\\flutter appp\\QuickHireBackend\\QuickHireBackend-mainHead\\user_messages\\message_serializer.py",
+              "RelativeToolTip": "user_messages\\message_serializer.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-05-16T08:05:22.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "apps.py",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\flutter appp\\QuickHireBackend\\QuickHireBackend-mainHead\\user_messages\\apps.py",
+              "RelativeDocumentMoniker": "user_messages\\apps.py",
+              "ToolTip": "C:\\Users\\user\\Downloads\\flutter appp\\QuickHireBackend\\QuickHireBackend-mainHead\\user_messages\\apps.py",
+              "RelativeToolTip": "user_messages\\apps.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-05-16T08:05:18.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "admin.py",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\flutter appp\\QuickHireBackend\\QuickHireBackend-mainHead\\user_messages\\admin.py",
+              "RelativeDocumentMoniker": "user_messages\\admin.py",
+              "ToolTip": "C:\\Users\\user\\Downloads\\flutter appp\\QuickHireBackend\\QuickHireBackend-mainHead\\user_messages\\admin.py",
+              "RelativeToolTip": "user_messages\\admin.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-05-16T08:05:15.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "manage.py",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\flutter appp\\QuickHireBackend\\QuickHireBackend-mainHead\\manage.py",
+              "RelativeDocumentMoniker": "manage.py",
+              "ToolTip": "C:\\Users\\user\\Downloads\\flutter appp\\QuickHireBackend\\QuickHireBackend-mainHead\\manage.py",
+              "RelativeToolTip": "manage.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-05-16T08:04:53.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "requirements.txt",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\flutter appp\\QuickHireBackend\\QuickHireBackend-mainHead\\requirements.txt",
+              "RelativeDocumentMoniker": "requirements.txt",
+              "ToolTip": "C:\\Users\\user\\Downloads\\flutter appp\\QuickHireBackend\\QuickHireBackend-mainHead\\requirements.txt",
+              "RelativeToolTip": "requirements.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-16T08:04:43.017Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
