@@ -281,7 +281,7 @@ def verify_otp_view(request):
     otp = data.get('otp')
     email = data.get('email')
     usersDetails = get_object_or_404(UserDetails, email = email)
-    user = get_object_or_404(User, email = usersDetails.email)
+    user = get_object_or_404(User, username = usersDetails.name)
     sent_otp = usersDetails.otp
 
     if otp == sent_otp:
