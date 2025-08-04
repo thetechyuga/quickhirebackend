@@ -33,10 +33,10 @@ def job_list_create(request):
             if company.is_approved == False:
                 return Response({"error": "Your company is not approved yet."}, status=status.HTTP_403_FORBIDDEN)
            
-            subscription = CompanySubscription.objects.get(company=company)
+            # subscription = CompanySubscription.objects.get(company=company)
     
-            if not subscription.is_active():
-                return Response({"error": "Your company is not subscribed."}, status=status.HTTP_403_FORBIDDEN)
+            # if not subscription.is_active():
+            #     return Response({"error": "Your company is not subscribed."}, status=status.HTTP_403_FORBIDDEN)
 
         except Company.DoesNotExist:
             return Response({"error": "You need to create a company first."}, status=status.HTTP_404_NOT_FOUND)
