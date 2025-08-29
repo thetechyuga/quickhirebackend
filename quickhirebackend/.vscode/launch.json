@@ -5,7 +5,7 @@
     "type": "debugpy",
     "request": "launch",
     "program": "manage.py",
-    "args": ["runserver", "8000"],
+    "args": ["runserver", "8002"],
     "django": true,
     "justMyCode": false,
     "console": "integratedTerminal"

@@ -1,6 +1,6 @@
 # urls.py
 from django.urls import path
-from .views import user_list_create,user_detail, education_journey_detail, education_journey_list_create,education_journey_for_user, experience_journey_detail, experience_journey_for_user, experience_journey_list_create, upload_profile_picture, get_image_url
+from .views import upload_resume, user_list_create,user_detail, education_journey_detail, education_journey_list_create,education_journey_for_user, experience_journey_detail, experience_journey_for_user, experience_journey_list_create, upload_profile_picture, get_image_url
 from .account_deletion_views import delete_user_data, verify_otp_view, account_deleted
 from django.conf import settings
 from django.conf.urls.static import static
@@ -23,6 +23,7 @@ urlpatterns = [
     path('account-deleted/', account_deleted, name='account_deleted'),
     path('user-login/', user_Views.login_user , name='login_user'),
     path('verify-login/', user_Views.verify_otp_view , name='verify_login'),
+    path("upload_resume/", upload_resume, name="upload_resume"),
 ]
 
 if settings.DEBUG:

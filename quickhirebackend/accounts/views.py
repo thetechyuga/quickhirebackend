@@ -25,6 +25,9 @@ import json
 from django.utils.crypto import get_random_string
 from django.shortcuts import get_object_or_404, redirect, render
 from django.core.mail import send_mail
+from rest_framework.decorators import parser_classes
+from rest_framework.parsers import MultiPartParser, FormParser
+
 from django.contrib.auth.models import User
 
 # user Views
@@ -83,6 +86,7 @@ def user_detail(request, pk):
 @api_view(['GET', 'POST'])
 @authentication_classes([SessionAuthentication, TokenAuthentication])
 @permission_classes([IsAuthenticated])
+@parser_classes([MultiPartParser, FormParser])
 def education_journey_list_create(request):
     if request.method == 'GET':
         education_journeys = EducationJourney.objects.all()
@@ -148,6 +152,7 @@ def education_journey_for_user(request, user_id):
 @api_view(['GET','POST'])
 @authentication_classes([SessionAuthentication, TokenAuthentication])
 @permission_classes([IsAuthenticated])
+@parser_classes([MultiPartParser, FormParser])
 def experience_journey_list_create(request):
     if request.method == 'GET':
         experience_journeys = ExperienceJourney.objects.all()
@@ -165,6 +170,7 @@ def experience_journey_list_create(request):
 @api_view(['GET', 'PUT', 'DELETE'])
 @authentication_classes([SessionAuthentication, TokenAuthentication])
 @permission_classes([IsAuthenticated])
+@parser_classes([MultiPartParser, FormParser])
 def experience_journey_detail(request, pk):
     try:
         experience_journey = ExperienceJourney.objects.get(pk=pk)
@@ -292,3 +298,32 @@ def verify_otp_view(request):
     else:
         return JsonResponse({'message': 'Invalid OTP!'}, status=status.HTTP_400_BAD_REQUEST )
 
+# Resume Upload
+@api_view(['GET', 'POST'])
+@authentication_classes([SessionAuthentication, TokenAuthentication])
+@permission_classes([IsAuthenticated])
+def upload_resume(request):
+    if request.method == 'GET':
+        try:
+            user_profile = UserDetails.objects.get(user_id=request.user.id)
+            serializer = UserDetailSerializer(user_profile)
+            return Response(serializer.data)
+        except UserDetails.DoesNotExist:
+            return Response({"error": "User profile not found"}, status=status.HTTP_404_NOT_FOUND)
+
+    elif request.method == 'POST':
+        try:
+            user_profile = UserDetails.objects.get(user_id=request.user.id)
+        except UserDetails.DoesNotExist:
+            user_profile = UserDetails(user=request.user)
+
+        # ✅ Replace old resume if exists
+        if 'resumeFile' in request.FILES:
+            if user_profile.resumeFile:
+                user_profile.resumeFile.delete(save=False)  # delete old file
+            user_profile.resumeFile = request.FILES['resumeFile']
+
+        user_profile.save()
+
+        serializer = UserDetailSerializer(user_profile)
+        return Response(serializer.data, status=status.HTTP_201_CREATED)
