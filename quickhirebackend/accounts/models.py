@@ -53,14 +53,16 @@ class EducationJourney(models.Model):
 
 
 class ExperienceJourney(models.Model):
-    UserDetails = models.ForeignKey(UserDetails, on_delete=models.CASCADE, related_name='experience_journeys')
+    userdetails = models.ForeignKey(UserDetails, on_delete=models.CASCADE, related_name='experience_journeys')
     ExperienceJourneyId = models.AutoField(primary_key=True)
+
+    # Instead of single companyName + designation, use JSON
+    companies = models.JSONField(default=list, blank=True)  
+    # example: [{"companyName": "TCS", "designation": "Engineer"}, {"companyName": "Infosys", "designation": "Senior Dev"}]
+
 
     # Work Experience Fields
     totalExperience = models.DecimalField(max_digits=5, decimal_places=2, null=True, blank=True)
-    companyName = models.CharField(max_length=255)
-    designation = models.CharField(max_length=255)
-    skills = models.CharField(max_length=255, null=True, blank=True)
     startYear = models.IntegerField()
     endYear = models.IntegerField()
 
@@ -70,9 +72,8 @@ class ExperienceJourney(models.Model):
     courseType = models.CharField(max_length=255, null=True, blank=True)  # full time or distance or online
     specialization = models.CharField(max_length=255, null=True, blank=True)
     universityName = models.CharField(max_length=255, null=True, blank=True)
+    skills = models.JSONField(default=list, blank=True)
 
-    # Resume Upload
-    resumeFile = models.FileField(upload_to="resumes/", null=True, blank=True)
 
     def __str__(self):
         return f"{self.designation} at {self.company_name}"
