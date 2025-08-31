@@ -107,6 +107,7 @@ def signup(request):
             user_id=user.id,
             name=user.username,
             email=user.email,
+            mobile=request.data.get("mobile"),
             otp=otp
         )
 
