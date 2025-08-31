@@ -6,6 +6,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     re_path('login/$', views.login),
     re_path('signup/', views.signup),
+    re_path('verify-signup-otp/', views.verify_signup_otp),
     re_path('logout/', views.logout),
     re_path('test_token', views.test_token),
     path('privacy-policy/', views.privacy_policy, name='privacy_policy'),
