@@ -86,7 +86,6 @@ def user_detail(request, pk):
 @api_view(['GET', 'POST'])
 @authentication_classes([SessionAuthentication, TokenAuthentication])
 @permission_classes([IsAuthenticated])
-@parser_classes([MultiPartParser, FormParser])
 def education_journey_list_create(request):
     if request.method == 'GET':
         education_journeys = EducationJourney.objects.all()
@@ -152,7 +151,6 @@ def education_journey_for_user(request, user_id):
 @api_view(['GET','POST'])
 @authentication_classes([SessionAuthentication, TokenAuthentication])
 @permission_classes([IsAuthenticated])
-@parser_classes([MultiPartParser, FormParser])
 def experience_journey_list_create(request):
     if request.method == 'GET':
         experience_journeys = ExperienceJourney.objects.all()
@@ -170,7 +168,6 @@ def experience_journey_list_create(request):
 @api_view(['GET', 'PUT', 'DELETE'])
 @authentication_classes([SessionAuthentication, TokenAuthentication])
 @permission_classes([IsAuthenticated])
-@parser_classes([MultiPartParser, FormParser])
 def experience_journey_detail(request, pk):
     try:
         experience_journey = ExperienceJourney.objects.get(pk=pk)
