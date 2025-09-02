@@ -77,5 +77,10 @@ class ExperienceJourney(models.Model):
 
 
     def __str__(self):
-        return f"{self.designation} at {self.company_name}"
+        if self.companies and len(self.companies) > 0:
+            first_company = self.companies[0]
+            company = first_company.get("companyName", "Unknown Company")
+            designation = first_company.get("designation", "Unknown Role")
+            return f"{designation} at {company}"
+        return f"ExperienceJourney {self.ExperienceJourneyId}"
 
